@@ -4,8 +4,6 @@
 
 }
 
-
-
 .hero {
     background-image: url(/realisation/images/background.jpeg);
     background-repeat: no-repeat;
@@ -13,12 +11,34 @@
     background-position: center;
     background-size: cover;
     background-clip: padding-box;
-    padding-top: 10%;
     padding-bottom: 10%;
+    justify-content: center;
 } 
 
 .about-app {
+    /* background: linear-gradient(90deg, #FFFFFF 21px, transparent 1%) center, linear-gradient(#FFFFFF 21px, transparent 1%) center, gray;
+    background-size: 22px 22px;
+
+    padding: 20px; */
     background-image: url(/realisation/images/dotted\ background.jpg);
     background-repeat: repeat;
+    z-index: -111;
+}
 
+li {
+    list-style-type: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items {
+    margin: 24px;
+}
+
+.logo {
+    width: 30px;
 }
