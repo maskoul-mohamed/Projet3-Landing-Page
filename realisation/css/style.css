@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.hero {
+    background-image: url(/realisation/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+    padding-top: 10%;
+    padding-bottom: 10%;
+} 
+
+.about-app {
+    background-image: url(/realisation/images/dotted\ background.jpg);
+    background-repeat: repeat;
+
+}
