@@ -15,6 +15,13 @@ li {
     flex-wrap: wrap;
 }
 
+.row.reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+
 
 .col-xs,
 .col-xs-1,
@@ -392,23 +399,3 @@ li {
 
 }
 
-nav {
-    background: burlywood;
-}
-
-header {
-    background: cadetblue;
-}
-
-section {
-    background: coral;
-}
-
-aside {
-    background: darkcyan;
-}
-
-footer{
-    color: white;
-    background: black;
-}

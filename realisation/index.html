@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/realisation/css/style.css">
+    <link rel="stylesheet" href="/realisation/css/flex-grid.css">
     <title>Document</title>
 </head>
 <body>
@@ -19,45 +20,62 @@
                   </svg>
             </div>
         </div>
-        <div>
-            <h1>#1 in Customer Satisfaction!</h1>
-            <p>Home Chef has the highest rate of customer satisfaction among leading meal kit companies.</p>
-            <button>Pick Your Meals</button>
+        <div class="center">
+            <h1 class="title">#1 in Customer Satisfaction!</h1>
+            <p class="sub-title">Home Chef has the highest rate of customer satisfaction among leading meal kit companies.</p>
+            <button class="cta-btn">Pick Your Meals</button>
         </div>
     </header>
-    <section>
-        <div>
-            <img src="/food1.webp" alt="">
-            <h2>More <span>Meal Variety</span></h2> 
-            <p>Up to 30 weekly choices using Customize It!</p>
+    
+    <section class="container">
+        <div class="center-container">
+            <div class="row">
+            <img class="food-img col-xs-12 col-sm-5 col-md-4 col-lg-4" src="/realisation/images/food1.webp" alt="">
+               <div class="text-container col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                    <h2 class="overview-title">More <span>Meal Variety</span></h2> 
+                    <p class="">Up to 30 weekly choices using Customize It!</p>
+               </div>
+            </div>
+            <div class="row reverse">
+                <img class="food-img col-xs-12 col-sm-5 col-md-4 col-lg-4" src="/realisation/images/food2.webp" alt="">
+                <div class="text-container col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                    <h2>More <span>Flexibility</span></h2>
+                    <p>Sign up with no commitment - skip weeks or cancel anytime!</p>
+                </div>    
+            </div>
+            <div class="row">
+                <img class="food-img col-xs-12 col-sm-5 col-md-4 col-lg-4" src="/realisation/images/food3.webp" alt="">
+                <div class="text-container col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                    <h2>More <span> More Flavor</span></h2> 
+                    <p>Satisfy your cravings with our flavor-packed, chef-designed recipes!</p>
+                </div>
+            </div>
+                <div class="row reverse">
+                    <img class="food-img col-xs-12 col-sm-5 col-md-4 col-lg-4" src="/realisation/images/food4.webp" alt="">
+                    <div class="text-container col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                        <h2>More <span>Satisfaction</span></h2>
+                        <p>Save time and get fresh ingredients delivered to your doorstep!</p>
+                    </div>
+                </div>
+            
+            <button class="cta-btn">Pick Your Meals</button>
         </div>
-        <div>
-            <h2>More <span>Flexibility</span></h2>
-            <p>Sign up with no commitment - skip weeks or cancel anytime!</p>
-            <img src="/food2.webp" alt="">
-        </div>
-        <div>
-            <img src="/food3.webp" alt="">
-            <h2>More <span> More Flavor</span></h2> 
-            <p>Satisfy your cravings with our flavor-packed, chef-designed recipes!</p>
-        </div>
-        <div>
-            <h2>More <span>Satisfaction</span></h2>
-            <p>Save time and get fresh ingredients delivered to your doorstep!</p>
-            <img src="/food4.webp" alt="">
-        </div>
-        <button>Pick Your Meals</button>
+        
     </section>
 
-    <section>
-        <h2>Become a Home Chef!</h2>
-        <p>There’s always something new and exciting to cook</p>
-        <div>
-            <img src="/dish1.webp" alt="">
-            <img src="/dish2.webp" alt="">
-            <img src="/dish3.webp" alt="">
+    <section class="gallery">
+        <div class="container">
+            <div class="center-container">
+                <h2>Become a Home Chef!</h2>
+                <p>There’s always something new and exciting to cook</p>
+                <div>
+                    <img src="/realisation/images/dish1.webp" alt="">
+                    <img src="/realisation/images/dish2.webp" alt="">
+                    <img src="/realisation/images/dish3.webp" alt="">
+                </div>
+                <button>Pick Your Meals</button>
+            </div>
         </div>
-        <button>Pick Your Meals</button>
     </section>
 
     <footer>
