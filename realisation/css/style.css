@@ -149,3 +149,14 @@ footer p {
 footer p span:hover {
     cursor: pointer;
 }
+
+
+@media only screen and (min-width: 64em) {
+    .text-container h2{
+        text-align: initial;
+    }
+
+    .text-container p{
+        text-align: initial;
+    }
+}
