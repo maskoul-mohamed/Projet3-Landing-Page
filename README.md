@@ -9,9 +9,6 @@
 - [About](https://github.com/maskoul-mohamed/Projet3-Landing-Page#about)
 - [Preview](https://github.com/maskoul-mohamed/Projet3-Landing-Page#preview)
 - [Built with](https://github.com/maskoul-mohamed/Projet3-Landing-Page#built-with)
-- [Installation](https://github.com/maskoul-mohamed/Projet3-Landing-Page#installation)
-    - [Online version](https://github.com/maskoul-mohamed/Projet3-Landing-Page#online-version)
-    - [Local version](https://github.com/maskoul-mohamed/Projet3-Landing-Page#local-version)
 - [Author](https://github.com/maskoul-mohamed/Projet3-Landing-Page#author)
 - [Show your support](https://github.com/maskoul-mohamed/Projet3-Landing-Page#show-your-support)
 
@@ -30,18 +27,8 @@ The landing page of Home Chef that is a responsive web page.
 
 - HTML5; 
 - CSS3;
-- flexgrid
 
 
-## Installation
-
-- ### Online version:
-
-Just access this [link](https://maskoul-mohamed.github.io/Projet3-Landing-Page/realisation/)
-
-- ### Local version:
-
-To install a local version of this app, download or clone the project [here](https://github.com/maskoul-mohamed/Projet3-Landing-Page.git)
 
 ## Author
 
